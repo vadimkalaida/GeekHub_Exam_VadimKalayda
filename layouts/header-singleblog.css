@@ -1,0 +1,7 @@
+.header-singleblog {
+  width: width-100;
+  min-height: 134px; }
+  .header-singleblog__container {
+    width: 95%;
+    min-height: 134px;
+    margin: auto; }

@@ -1,0 +1,86 @@
+.latest-news {
+  width: 100%;
+  min-height: 1347px;
+  margin-bottom: 169px; }
+  .latest-news__container {
+    width: 95%;
+    min-height: 1347px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .latest-news-headline {
+    color: #1a1a1d;
+    font-family: "Poppins", "sans-serif";
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 43px; }
+  .latest-news-line {
+    width: 150px;
+    border: 1px solid #242424;
+    margin-top: 0;
+    margin-bottom: 65px; }
+  .latest-news__small {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .latest-news__small__post {
+      width: 530px;
+      min-height: 139px;
+      overflow: hidden;
+      display: flex;
+      margin-bottom: 55px;
+      margin-left: 25.5px;
+      margin-right: 25.5px; }
+      .latest-news__small__post img {
+        width: 200px;
+        height: 139px; }
+      .latest-news__small__post__text {
+        width: 288px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        min-height: 139px;
+        margin-left: 42px; }
+      .latest-news__small__post-title {
+        color: #1a1a1d;
+        font-family: "Poppins", "sans-serif";
+        font-size: 24px;
+        line-height: 36px;
+        transition: .2s;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-bottom: 15px; }
+        .latest-news__small__post-title:hover {
+          color: #87bbbc; }
+      .latest-news__small__post-date {
+        color: #77777e;
+        font-family: "Nunito", "sans-serif";
+        margin-top: 0; }
+
+@media (min-width: 320px) and (max-width: 594px) {
+  .latest-news__small__post {
+    width: 100%; }
+    .latest-news__small__post__text {
+      width: 100%;
+      margin-left: 22px; }
+    .latest-news__small__post-title {
+      font-size: 20px; } }
+
+@media (min-width: 494px) and (max-width: 594px) {
+  .latest-news__small__post-title {
+    font-size: 20px; } }
+
+@media (min-width: 320px) and (max-width: 493px) {
+  .latest-news__small__post-title {
+    font-size: 17px;
+    line-height: 24px; } }
+
+@media (min-width: 320px) and (max-width: 379px) {
+  .latest-news__small__post__text {
+    margin-left: 12px; } }
+
+@media (min-width: 320px) and (max-width: 348px) {
+  .latest-news__small__post img {
+    width: 170px;
+    height: 119px; } }

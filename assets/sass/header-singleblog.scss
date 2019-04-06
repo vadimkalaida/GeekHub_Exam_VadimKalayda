@@ -1,0 +1,22 @@
+$text-transform-upper: uppercase;
+$bold: bold;
+$center: center;
+$flex: flex;
+$direction-col: column;
+$auto: auto;
+$width-100: 100%;
+$white: #fff;
+$wrap: wrap;
+$none: none;
+$font-poppins: 'Poppins', 'sans-serif';
+$font-nunito: 'Nunito', 'sans-serif';
+
+.header-singleblog {
+	width: width-100;
+	min-height: 134px;
+	&__container {
+		width: 95%;
+		min-height: 134px;
+		margin: $auto;
+	}
+}

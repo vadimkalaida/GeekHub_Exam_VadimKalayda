@@ -1,0 +1,9 @@
+.header-about {
+  width: 100%;
+  min-height: 1080px; }
+  .header-about__container {
+    width: 95%;
+    min-height: 1080px;
+    display: flex;
+    flex-direction: column;
+    margin: auto; }

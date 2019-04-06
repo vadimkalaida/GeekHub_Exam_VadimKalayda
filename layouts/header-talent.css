@@ -1,0 +1,11 @@
+.header-talent {
+  width: 100%;
+  min-height: 100px; }
+  .header-talent__container {
+    width: 95%;
+    min-height: 100px;
+    text-align: center; }
+  .header-talent-headline {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Nunito", "sans-serif"; }
